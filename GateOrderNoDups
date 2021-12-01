@@ -1,1291 +1,152 @@
-{
-  "nodes": [{
-   "name": "camping0",
-   "id": "camping0",
-   "grp": 1,
-   "n": 1590
- },
- {
-   "name": "camping1",
-   "id": "camping1",
-   "grp": 1,
-   "n": 340
- },
- {
-   "name": "camping2",
-   "id": "camping2",
-   "grp": 1,
-   "n": 2280
- },
- {
-   "name": "camping3",
-   "id": "camping3",
-   "grp": 1,
-   "n": 2464
- },
- {
-   "name": "camping4",
-   "id": "camping4",
-   "grp": 1,
-   "n": 2772
- },
- {
-   "name": "camping5",
-   "id": "camping5",
-   "grp": 1,
-   "n": 3184
- },
- {
-   "name": "camping6",
-   "id": "camping6",
-   "grp": 1,
-   "n": 2465
- },
- {
-   "name": "camping7",
-   "id": "camping7",
-   "grp": 1,
-   "n": 2190
- },
- {
-   "name": "camping8",
-   "id": "camping8",
-   "grp": 1,
-   "n": 3220
- },
- {
-   "name": "entrance0",
-   "id": "entrance0",
-   "grp": 2,
-   "n": 6576
- },
- {
-   "name": "entrance1",
-   "id": "entrance1",
-   "grp": 2,
-   "n": 6267
- },
- {
-   "name": "entrance2",
-   "id": "entrance2",
-   "grp": 2,
-   "n": 7133
- },
- {
-   "name": "entrance3",
-   "id": "entrance3",
-   "grp": 2,
-   "n": 8531
- },
- {
-   "name": "entrance4",
-   "id": "entrance4",
-   "grp": 2,
-   "n": 6953
- },
- {
-   "name": "gate0",
-   "id": "gate0",
-   "grp": 3,
-   "n": 124
- },
- {
-   "name": "gate1",
-   "id": "gate1",
-   "grp": 3,
-   "n": 124
- },
- {
-   "name": "gate2",
-   "id": "gate2",
-   "grp": 3,
-   "n": 440
- },
- {
-   "name": "gate3",
-   "id": "gate3",
-   "grp": 3,
-   "n": 1234
- },
- {
-   "name": "gate4",
-   "id": "gate4",
-   "grp": 3,
-   "n": 916
- },
- {
-   "name": "gate5",
-   "id": "gate5",
-   "grp": 3,
-   "n": 1671
- },
- {
-   "name": "gate6",
-   "id": "gate6",
-   "grp": 3,
-   "n": 1185
- },
- {
-   "name": "gate7",
-   "id": "gate7",
-   "grp": 3,
-   "n": 670
- },
- {
-   "name": "gate8",
-   "id": "gate8",
-   "grp": 3,
-   "n": 1996
- },
- {
-   "name": "general-gate0",
-   "id": "general-gate0",
-   "grp": 4,
-   "n": 216
- },
- {
-   "name": "general-gate1",
-   "id": "general-gate1",
-   "grp": 4,
-   "n": 14677
- },
- {
-   "name": "general-gate2",
-   "id": "general-gate2",
-   "grp": 4,
-   "n": 14801
- },
- {
-   "name": "general-gate3",
-   "id": "general-gate3",
-   "grp": 4,
-   "n": 859
- },
- {
-   "name": "general-gate4",
-   "id": "general-gate4",
-   "grp": 4,
-   "n": 10974
- },
- {
-   "name": "general-gate5",
-   "id": "general-gate5",
-   "grp": 4,
-   "n": 9435
- },
- {
-   "name": "general-gate6",
-   "id": "general-gate6",
-   "grp": 4,
-   "n": 2194
- },
- {
-   "name": "general-gate7",
-   "id": "general-gate7",
-   "grp": 4,
-   "n": 16119
- },
- {
-   "name": "ranger-base",
-   "id": "ranger-base",
-   "grp": 5,
-   "n": 1996
- },
- {
-   "name": "ranger-stop0",
-   "id": "ranger-stop0",
-   "grp": 6,
-   "n": 15078
- },
- {
-   "name": "ranger-stop1",
-   "id": "ranger-stop1",
-   "grp": 6,
-   "n": 466
- },
- {
-   "name": "ranger-stop2",
-   "id": "ranger-stop2",
-   "grp": 6,
-   "n": 15019
- },
- {
-   "name": "ranger-stop3",
-   "id": "ranger-stop3",
-   "grp": 6,
-   "n": 1236
- },
- {
-   "name": "ranger-stop4",
-   "id": "ranger-stop4",
-   "grp": 6,
-   "n": 612
- },
- {
-   "name": "ranger-stop5",
-   "id": "ranger-stop5",
-   "grp": 6,
-   "n": 920
- },
- {
-   "name": "ranger-stop6",
-   "id": "ranger-stop6",
-   "grp": 6,
-   "n":1878
- },
- {
-   "name": "ranger-stop7",
-   "id": "ranger-stop7",
-   "grp": 6,
-   "n": 672
- }
-],
- "links":[
- {
-   "source": "general-gate7",
-   "target": "camping0",
-   "value": 1
- },
- {
-   "source": "camping0",
-   "target": "camping0",
-   "value": 1
- },
- {
-   "source": "gate1",
-   "target": "camping0",
-   "value": 1
- },
- {
-   "source": "entrance1",
-   "target": "camping0",
-   "value": 1
- },
- {
-   "source": "camping2",
-   "target": "camping0",
-   "value": 1
- },
- {
-   "source": "camping4",
-   "target": "camping0",
-   "value": 1
- },
- {
-   "source": "gate2",
-   "target": "camping0",
-   "value": 1
- },
- {
-   "source": "camping3",
-   "target": "camping0",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "camping1",
-   "value": 1
- },
- {
-   "source": "camping1",
-   "target": "camping1",
-   "value": 1
- },
- {
-   "source": "general-gate0",
-   "target": "camping1",
-   "value": 1
- },
- {
-   "source": "entrance2",
-   "target": "camping1",
-   "value": 1
- },
- {
-   "source": "camping8",
-   "target": "camping1",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "camping2",
-   "value": 1
- },
- {
-   "source": "camping2",
-   "target": "camping2",
-   "value": 1
- },
- {
-   "source": "entrance1",
-   "target": "camping2",
-   "value": 1
- },
- {
-   "source": "gate1",
-   "target": "camping2",
-   "value": 1
- },
- {
-   "source": "camping4",
-   "target": "camping2",
-   "value": 1
- },
- {
-   "source": "camping0",
-   "target": "camping2",
-   "value": 1
- },
- {
-   "source": "gate2",
-   "target": "camping2",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "camping3",
-   "value": 1
- },
- {
-   "source": "camping3",
-   "target": "camping3",
-   "value": 1
- },
- {
-   "source": "entrance1",
-   "target": "camping3",
-   "value": 1
- },
- {
-   "source": "gate1",
-   "target": "camping3",
-   "value": 1
- },
- {
-   "source": "camping0",
-   "target": "camping3",
-   "value": 1
- },
- {
-   "source": "camping2",
-   "target": "camping3",
-   "value": 1
- },
- {
-   "source": "gate1",
-   "target": "camping4",
-   "value": 1
- },
- {
-   "source": "camping4",
-   "target": "camping4",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "camping4",
-   "value": 1
- },
- {
-   "source": "entrance1",
-   "target": "camping4",
-   "value": 1
- },
- {
-   "source": "gate2",
-   "target": "camping4",
-   "value": 1
- },
- {
-   "source": "camping3",
-   "target": "camping4",
-   "value": 1
- },
- {
-   "source": "camping0",
-   "target": "camping4",
-   "value": 1
- },
- {
-   "source": "camping2",
-   "target": "camping4",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "camping5",
-   "value": 1
- },
- {
-   "source": "camping5",
-   "target": "camping5",
-   "value": 1
- },
- {
-   "source": "ranger-stop4",
-   "target": "camping5",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "camping6",
-   "value": 1
- },
- {
-   "source": "camping6",
-   "target": "camping6",
-   "value": 1
- },
- {
-   "source": "entrance2",
-   "target": "camping6",
-   "value": 1
- },
- {
-   "source": "entrance4",
-   "target": "camping6",
-   "value": 1
- },
- {
-   "source": "gate5",
-   "target": "camping6",
-   "value": 1
- },
- {
-   "source": "gate8",
-   "target": "camping6",
-   "value": 1
- },
- {
-   "source": "general-gate6",
-   "target": "camping7",
-   "value": 1
- },
- {
-   "source": "camping7",
-   "target": "camping7",
-   "value": 1
- },
- {
-   "source": "general-gate2",
-   "target": "camping8",
-   "value": 1
- },
- {
-   "source": "camping8",
-   "target": "camping8",
-   "value": 1
- },
- {
-   "source": "general-gate3",
-   "target": "camping8",
-   "value": 1
- },
- {
-   "source": "gate3",
-   "target": "camping8",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "camping8",
-   "value": 1
- },
- {
-   "source": "camping1",
-   "target": "camping8",
-   "value": 1
- },
- {
-   "source": "general-gate1",
-   "target": "entrance0",
-   "value": 1
- },
- {
-   "source": "general-gate4",
-   "target": "entrance0",
-   "value": 1
- },
- {
-   "source": "entrance3",
-   "target": "entrance0",
-   "value": 1
- },
- {
-   "source": "entrance0",
-   "target": "entrance0",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "entrance1",
-   "value": 1
- },
- {
-   "source": "camping3",
-   "target": "entrance1",
-   "value": 1
- },
- {
-   "source": "camping2",
-   "target": "entrance1",
-   "value": 1
- },
- {
-   "source": "camping0",
-   "target": "entrance1",
-   "value": 1
- },
- {
-   "source": "camping4",
-   "target": "entrance1",
-   "value": 1
- },
- {
-   "source": "entrance1",
-   "target": "entrance1",
-   "value": 1
- },
- {
-   "source": "ranger-stop1",
-   "target": "entrance1",
-   "value": 1
- },
- {
-   "source": "camping6",
-   "target": "entrance2",
-   "value": 1
- },
- {
-   "source": "general-gate2",
-   "target": "entrance2",
-   "value": 1
- },
- {
-   "source": "entrance4",
-   "target": "entrance2",
-   "value": 1
- },
- {
-   "source": "general-gate6",
-   "target": "entrance2",
-   "value": 1
- },
- {
-   "source": "general-gate3",
-   "target": "entrance2",
-   "value": 1
- },
- {
-   "source": "camping1",
-   "target": "entrance2",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "entrance2",
-   "value": 1
- },
- {
-   "source": "entrance2",
-   "target": "entrance2",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "entrance3",
-   "value": 1
- },
- {
-   "source": "general-gate1",
-   "target": "entrance3",
-   "value": 1
- },
- {
-   "source": "entrance0",
-   "target": "entrance3",
-   "value": 1
- },
- {
-   "source": "gate6",
-   "target": "entrance3",
-   "value": 1
- },
- {
-   "source": "entrance3",
-   "target": "entrance3",
-   "value": 1
- },
- {
-   "source": "general-gate4",
-   "target": "entrance3",
-   "value": 1
- },
- {
-   "source": "general-gate6",
-   "target": "entrance4",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "entrance4",
-   "value": 1
- },
- {
-   "source": "entrance2",
-   "target": "entrance4",
-   "value": 1
- },
- {
-   "source": "camping6",
-   "target": "entrance4",
-   "value": 1
- },
- {
-   "source": "entrance4",
-   "target": "entrance4",
-   "value": 1
- },
- {
-   "source": "general-gate1",
-   "target": "gate0",
-   "value": 1
- },
- {
-   "source": "gate1",
-   "target": "gate0",
-   "value": 1
- },
- {
-   "source": "gate6",
-   "target": "gate0",
-   "value": 1
- },
- {
-   "source": "gate0",
-   "target": "gate1",
-   "value": 1
- },
- {
-   "source": "camping4",
-   "target": "gate1",
-   "value": 1
- },
- {
-   "source": "camping0",
-   "target": "gate1",
-   "value": 1
- },
- {
-   "source": "gate2",
-   "target": "gate1",
-   "value": 1
- },
- {
-   "source": "camping3",
-   "target": "gate1",
-   "value": 1
- },
- {
-   "source": "camping2",
-   "target": "gate1",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "gate2",
-   "value": 1
- },
- {
-   "source": "ranger-stop1",
-   "target": "gate2",
-   "value": 1
- },
- {
-   "source": "gate1",
-   "target": "gate2",
-   "value": 1
- },
- {
-   "source": "camping2",
-   "target": "gate2",
-   "value": 1
- },
- {
-   "source": "camping0",
-   "target": "gate2",
-   "value": 1
- },
- {
-   "source": "camping3",
-   "target": "gate2",
-   "value": 1
- },
- {
-   "source": "camping4",
-   "target": "gate2",
-   "value": 1
- },
- {
-   "source": "general-gate2",
-   "target": "gate3",
-   "value": 1
- },
- {
-   "source": "ranger-stop3",
-   "target": "gate3",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "gate3",
-   "value": 1
- },
- {
-   "source": "camping8",
-   "target": "gate3",
-   "value": 1
- },
- {
-   "source": "general-gate3",
-   "target": "gate4",
-   "value": 1
- },
- {
-   "source": "ranger-stop5",
-   "target": "gate4",
-   "value": 1
- },
- {
-   "source": "gate8",
-   "target": "gate4",
-   "value": 1
- },
- {
-   "source": "gate5",
-   "target": "gate4",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "gate4",
-   "value": 1
- },
- {
-   "source": "general-gate6",
-   "target": "gate4",
-   "value": 1
- },
- {
-   "source": "camping6",
-   "target": "gate4",
-   "value": 1
- },
- {
-   "source": "ranger-stop6",
-   "target": "gate5",
-   "value": 1
- },
- {
-   "source": "gate4",
-   "target": "gate5",
-   "value": 1
- },
- {
-   "source": "gate8",
-   "target": "gate5",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "gate5",
-   "value": 1
- },
- {
-   "source": "general-gate6",
-   "target": "gate5",
-   "value": 1
- },
- {
-   "source": "camping6",
-   "target": "gate5",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "gate6",
-   "value": 1
- },
- {
-   "source": "ranger-stop6",
-   "target": "gate6",
-   "value": 1
- },
- {
-   "source": "gate0",
-   "target": "gate6",
-   "value": 1
- },
- {
-   "source": "gate7",
-   "target": "gate6",
-   "value": 1
- },
- {
-   "source": "entrance3",
-   "target": "gate6",
-   "value": 1
- },
- {
-   "source": "general-gate1",
-   "target": "gate6",
-   "value": 1
- },
- {
-   "source": "gate6",
-   "target": "gate7",
-   "value": 1
- },
- {
-   "source": "ranger-stop7",
-   "target": "gate7",
-   "value": 1
- },
- {
-   "source": "general-gate4",
-   "target": "gate7",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "gate7",
-   "value": 1
- },
- {
-   "source": "ranger-base",
-   "target": "gate8",
-   "value": 0
- },
- {
-   "source": "camping6",
-   "target": "gate8",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "gate8",
-   "value": 1
- },
- {
-   "source": "gate5",
-   "target": "gate8",
-   "value": 1
- },
- {
-   "source": "gate4",
-   "target": "gate8",
-   "value": 1
- },
- {
-   "source": "general-gate6",
-   "target": "gate8",
-   "value": 1
- },
- {
-   "source": "camping1",
-   "target": "general-gate0",
-   "value": 1
- },
- {
-   "source": "general-gate2",
-   "target": "general-gate0",
-   "value": 1
- },
- {
-   "source": "entrance3",
-   "target": "general-gate1",
-   "value": 1
- },
- {
-   "source": "ranger-stop2",
-   "target": "general-gate1",
-   "value": 1
- },
- {
-   "source": "entrance0",
-   "target": "general-gate1",
-   "value": 1
- },
- {
-   "source": "gate0",
-   "target": "general-gate1",
-   "value": 1
- },
- {
-   "source": "general-gate4",
-   "target": "general-gate1",
-   "value": 1
- },
- {
-   "source": "gate6",
-   "target": "general-gate1",
-   "value": 1
- },
- {
-   "source": "general-gate1",
-   "target": "general-gate1",
-   "value": 1
- },
- {
-   "source": "ranger-stop0",
-   "target": "general-gate2",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "general-gate2",
-   "value": 1
- },
- {
-   "source": "entrance2",
-   "target": "general-gate2",
-   "value": 1
- },
- {
-   "source": "camping8",
-   "target": "general-gate2",
-   "value": 1
- },
- {
-   "source": "general-gate0",
-   "target": "general-gate2",
-   "value": 1
- },
- {
-   "source": "gate3",
-   "target": "general-gate2",
-   "value": 1
- },
- {
-   "source": "entrance2",
-   "target": "general-gate3",
-   "value": 1
- },
- {
-   "source": "camping8",
-   "target": "general-gate3",
-   "value": 1
- },
- {
-   "source": "gate4",
-   "target": "general-gate3",
-   "value": 1
- },
- {
-   "source": "general-gate1",
-   "target": "general-gate4",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "general-gate4",
-   "value": 1
- },
- {
-   "source": "entrance0",
-   "target": "general-gate4",
-   "value": 1
- },
- {
-   "source": "gate7",
-   "target": "general-gate4",
-   "value": 1
- },
- {
-   "source": "gate0",
-   "target": "general-gate4",
-   "value": 1
- },
- {
-   "source": "entrance3",
-   "target": "general-gate4",
-   "value": 1
- },
- {
-   "source": "general-gate4",
-   "target": "general-gate4",
-   "value": 1
- },
- {
-   "source": "general-gate2",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "entrance4",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "camping8",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "gate8",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "gate3",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "camping6",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "gate5",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "general-gate6",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "camping1",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "gate4",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "general-gate5",
-   "value": 1
- },
- {
-   "source": "entrance2",
-   "target": "general-gate6",
-   "value": 1
- },
- {
-   "source": "camping7",
-   "target": "general-gate6",
-   "value": 1
- },
- {
-   "source": "general-gate5",
-   "target": "general-gate6",
-   "value": 1
- },
- {
-   "source": "entrance4",
-   "target": "general-gate6",
-   "value": 1
- },
- {
-   "source": "gate5",
-   "target": "general-gate6",
-   "value": 1
- },
- {
-   "source": "gate8",
-   "target": "general-gate6",
-   "value": 1
- },
- {
-   "source": "general-gate6",
-   "target": "general-gate6",
-   "value": 1
- },
- {
-   "source": "gate4",
-   "target": "general-gate6",
-   "value": 1
- },
- {
-   "source": "camping6",
-   "target": "general-gate6",
-   "value": 1
- },
- {
-   "source": "general-gate4",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "camping5",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "entrance3",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "camping4",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "camping0",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "camping2",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "entrance1",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "camping3",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "ranger-stop4",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "gate2",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "gate6",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "gate7",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "general-gate7",
-   "value": 1
- },
- {
-   "source": "gate8",
-   "target": "ranger-base",
-   "value": 0
- },
- {
-   "source": "ranger-stop2",
-   "target": "ranger-stop0",
-   "value": 1
- },
- {
-   "source": "general-gate2",
-   "target": "ranger-stop0",
-   "value": 1
- },
- {
-   "source": "ranger-stop0",
-   "target": "ranger-stop0",
-   "value": 1
- },
- {
-   "source": "gate2",
-   "target": "ranger-stop1",
-   "value": 1
- },
- {
-   "source": "ranger-stop1",
-   "target": "ranger-stop1",
-   "value": 1
- },
- {
-   "source": "entrance1",
-   "target": "ranger-stop1",
-   "value": 1
- },
- {
-   "source": "general-gate1",
-   "target": "ranger-stop2",
-   "value": 1
- },
- {
-   "source": "ranger-stop0",
-   "target": "ranger-stop2",
-   "value": 1
- },
- {
-   "source": "ranger-stop2",
-   "target": "ranger-stop2",
-   "value": 1
- },
- {
-   "source": "gate3",
-   "target": "ranger-stop3",
-   "value": 1
- },
- {
-   "source": "ranger-stop3",
-   "target": "ranger-stop3",
-   "value": 1
- },
- {
-   "source": "general-gate7",
-   "target": "ranger-stop4",
-   "value": 1
- },
- {
-   "source": "ranger-stop4",
-   "target": "ranger-stop4",
-   "value": 1
- },
- {
-   "source": "gate4",
-   "target": "ranger-stop5",
-   "value": 1
- },
- {
-   "source": "ranger-stop5",
-   "target": "ranger-stop5",
-   "value": 1
- },
- {
-   "source": "gate6",
-   "target": "ranger-stop6",
-   "value": 1
- },
- {
-   "source": "gate5",
-   "target": "ranger-stop6",
-   "value": 1
- },
- {
-   "source": "ranger-stop6",
-   "target": "ranger-stop6",
-   "value": 1
- },
- {
-   "source": "gate7",
-   "target": "ranger-stop7",
-   "value": 1
- },
- {
-   "source": "ranger-stop7",
-   "target": "ranger-stop7",
-   "value": 1
- }],
+<!-- Code from d3-graph-gallery.com -->
+<!DOCTYPE html>
+<meta charset="utf-8">
 
-"attributes": {}
- }
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Load color palette -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>
+
+
+<script>
+
+// set the dimensions and margins of the graph
+var margin = {top: 0, right: 30, bottom: 60, left: 60},
+  width = 1400 - margin.left - margin.right,
+  height = 650 - margin.top - margin.bottom;
+
+// append the svg object to the body of the page
+var svg = d3.select("#my_dataviz")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+// Read dummy data
+//d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/data_researcherNetwork.json", function( data) {
+d3.json("https://raw.githubusercontent.com/riveraj70/Vast-MC1/main/GateOrderNoDups", function( data) {
+  // List of node names
+  var allNodes = data.nodes.map(function(d){return d.name})
+
+  // List of groups
+  var allGroups = data.nodes.map(function(d){return d.grp})
+  allGroups = [...new Set(allGroups)]
+
+  // A color scale for groups:
+  var color = d3.scaleOrdinal()
+    .domain(allGroups)
+    .range(d3.schemeSet3);
+
+  // A linear scale for node size
+  var size = d3.scaleLinear()
+    .domain([124,16119])
+    .range([5,30]);
+
+  // A linear scale to position the nodes on the X axis
+  var x = d3.scalePoint()
+    .range([0, width])
+    .domain(allNodes)
+
+  // In my input data, links are provided between nodes -id-, NOT between node names.
+  // So I have to do a link between this id and the name
+  var idToNode = {};
+  data.nodes.forEach(function (n) {
+    idToNode[n.id] = n;
+  });
+
+  // Add the links
+  var links = svg
+    .selectAll('mylinks')
+    .data(data.links)
+    .enter()
+    .append('path')
+    .attr('d', function (d) {
+      start = x(idToNode[d.source].name)    // X position of start node on the X axis
+      end = x(idToNode[d.target].name)      // X position of end node
+      return ['M', start, height-30,    // the arc starts at the coordinate x=start, y=height-30 (where the starting node is)
+        'A',                            // This means we're gonna build an elliptical arc
+        (start - end)/2, ',',    // Next 2 lines are the coordinates of the inflexion point. Height of this point is proportional with start - end distance
+        (start - end)/2, 0, 0, ',',
+        start < end ? 1 : 0, end, ',', height-30] // We always want the arc on top. So if end is before start, putting 0 here turn the arc upside down.
+        .join(' ');
+    })
+    .style("fill", "none")
+    .attr("stroke", "grey")
+    .style("stroke-width", 1)
+
+  // Add the circle for the nodes
+  var nodes = svg
+    .selectAll("mynodes")
+    .data(data.nodes.sort(function(a,b) { return +b.n - +a.n }))
+    .enter()
+    .append("circle")
+      .attr("cx", function(d){ return(x(d.name))})
+      .attr("cy", height-30)
+      .attr("r", function(d){ return(size(d.n))})
+      .style("fill", function(d){ return color(d.grp)})
+      .attr("stroke", "silver")
+  
+  var font_size = 8;
+  
+  var div = d3.select("body").append("div")
+	.attr("class", "tooltip")
+	.style("opacity",0);
+	
+  // And give them a label
+  var labels = svg
+    .selectAll("mylabels")
+    .data(data.nodes)
+    .enter()
+    .append("text")
+      .attr("x", 0)
+      .attr("y", 0)
+      .text(function(d){ return(d.name)} )
+      .style("text-anchor", "end")
+      .attr("transform", function(d){ return( "translate(" + (x(d.name)) + "," + (height-15) + ")rotate(-45)")})
+      .style("font-size", font_size)
+
+  // Add the highlighting functionality
+  nodes
+    .on('mouseover', function (d) {
+	  div.transition()
+		.duration(200)
+		.style("opacity", .9);
+      // Highlight the nodes: every node is green except of him
+      nodes
+        .style('opacity', .2)
+      d3.select(this)
+        .style('opacity', 1)
+      // Highlight the connections
+      links
+        .style('stroke', function (link_d) { return link_d.source === d.id || link_d.target === d.id ? color(d.grp) : '#b8b8b8';})
+        .style('stroke-opacity', function (link_d) { return link_d.source === d.id || link_d.target === d.id ? 1 : .2;})
+        .style('stroke-width', function (link_d) { return link_d.source === d.id || link_d.target === d.id ? 4 : 1;})
+      labels
+        .style("font-size", function(label_d){ return label_d.name === d.name ? 16 : 2 } )
+        .attr("y", function(label_d){ return label_d.name === d.name ? 10 : 0 } )
+
+    })
+    .on('mouseout', function (d) {
+	  div.transition()
+		.duration(500)
+		.style("opacity", 0);
+		
+      nodes.style('opacity', 1)
+      links
+        .style('stroke', 'grey')
+        .style('stroke-opacity', .8)
+        .style('stroke-width', '1')
+      labels
+        .style("font-size", font_size)
+
+    })
+	
+})
+
+</script>
