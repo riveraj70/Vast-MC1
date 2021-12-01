@@ -1,0 +1,1291 @@
+{
+  "nodes": [{
+   "name": "camping0",
+   "id": "camping0",
+   "grp": 1,
+   "n": 1590
+ },
+ {
+   "name": "camping1",
+   "id": "camping1",
+   "grp": 1,
+   "n": 340
+ },
+ {
+   "name": "camping2",
+   "id": "camping2",
+   "grp": 1,
+   "n": 2280
+ },
+ {
+   "name": "camping3",
+   "id": "camping3",
+   "grp": 1,
+   "n": 2464
+ },
+ {
+   "name": "camping4",
+   "id": "camping4",
+   "grp": 1,
+   "n": 2772
+ },
+ {
+   "name": "camping5",
+   "id": "camping5",
+   "grp": 1,
+   "n": 3184
+ },
+ {
+   "name": "camping6",
+   "id": "camping6",
+   "grp": 1,
+   "n": 2465
+ },
+ {
+   "name": "camping7",
+   "id": "camping7",
+   "grp": 1,
+   "n": 2190
+ },
+ {
+   "name": "camping8",
+   "id": "camping8",
+   "grp": 1,
+   "n": 3220
+ },
+ {
+   "name": "entrance0",
+   "id": "entrance0",
+   "grp": 2,
+   "n": 6576
+ },
+ {
+   "name": "entrance1",
+   "id": "entrance1",
+   "grp": 2,
+   "n": 6267
+ },
+ {
+   "name": "entrance2",
+   "id": "entrance2",
+   "grp": 2,
+   "n": 7133
+ },
+ {
+   "name": "entrance3",
+   "id": "entrance3",
+   "grp": 2,
+   "n": 8531
+ },
+ {
+   "name": "entrance4",
+   "id": "entrance4",
+   "grp": 2,
+   "n": 6953
+ },
+ {
+   "name": "gate0",
+   "id": "gate0",
+   "grp": 3,
+   "n": 124
+ },
+ {
+   "name": "gate1",
+   "id": "gate1",
+   "grp": 3,
+   "n": 124
+ },
+ {
+   "name": "gate2",
+   "id": "gate2",
+   "grp": 3,
+   "n": 440
+ },
+ {
+   "name": "gate3",
+   "id": "gate3",
+   "grp": 3,
+   "n": 1234
+ },
+ {
+   "name": "gate4",
+   "id": "gate4",
+   "grp": 3,
+   "n": 916
+ },
+ {
+   "name": "gate5",
+   "id": "gate5",
+   "grp": 3,
+   "n": 1671
+ },
+ {
+   "name": "gate6",
+   "id": "gate6",
+   "grp": 3,
+   "n": 1185
+ },
+ {
+   "name": "gate7",
+   "id": "gate7",
+   "grp": 3,
+   "n": 670
+ },
+ {
+   "name": "gate8",
+   "id": "gate8",
+   "grp": 3,
+   "n": 1996
+ },
+ {
+   "name": "general-gate0",
+   "id": "general-gate0",
+   "grp": 4,
+   "n": 216
+ },
+ {
+   "name": "general-gate1",
+   "id": "general-gate1",
+   "grp": 4,
+   "n": 14677
+ },
+ {
+   "name": "general-gate2",
+   "id": "general-gate2",
+   "grp": 4,
+   "n": 14801
+ },
+ {
+   "name": "general-gate3",
+   "id": "general-gate3",
+   "grp": 4,
+   "n": 859
+ },
+ {
+   "name": "general-gate4",
+   "id": "general-gate4",
+   "grp": 4,
+   "n": 10974
+ },
+ {
+   "name": "general-gate5",
+   "id": "general-gate5",
+   "grp": 4,
+   "n": 9435
+ },
+ {
+   "name": "general-gate6",
+   "id": "general-gate6",
+   "grp": 4,
+   "n": 2194
+ },
+ {
+   "name": "general-gate7",
+   "id": "general-gate7",
+   "grp": 4,
+   "n": 16119
+ },
+ {
+   "name": "ranger-base",
+   "id": "ranger-base",
+   "grp": 5,
+   "n": 1996
+ },
+ {
+   "name": "ranger-stop0",
+   "id": "ranger-stop0",
+   "grp": 6,
+   "n": 15078
+ },
+ {
+   "name": "ranger-stop1",
+   "id": "ranger-stop1",
+   "grp": 6,
+   "n": 466
+ },
+ {
+   "name": "ranger-stop2",
+   "id": "ranger-stop2",
+   "grp": 6,
+   "n": 15019
+ },
+ {
+   "name": "ranger-stop3",
+   "id": "ranger-stop3",
+   "grp": 6,
+   "n": 1236
+ },
+ {
+   "name": "ranger-stop4",
+   "id": "ranger-stop4",
+   "grp": 6,
+   "n": 612
+ },
+ {
+   "name": "ranger-stop5",
+   "id": "ranger-stop5",
+   "grp": 6,
+   "n": 920
+ },
+ {
+   "name": "ranger-stop6",
+   "id": "ranger-stop6",
+   "grp": 6,
+   "n":1878
+ },
+ {
+   "name": "ranger-stop7",
+   "id": "ranger-stop7",
+   "grp": 6,
+   "n": 672
+ }
+],
+ "links":[
+ {
+   "source": "general-gate7",
+   "target": "camping0",
+   "value": 1
+ },
+ {
+   "source": "camping0",
+   "target": "camping0",
+   "value": 1
+ },
+ {
+   "source": "gate1",
+   "target": "camping0",
+   "value": 1
+ },
+ {
+   "source": "entrance1",
+   "target": "camping0",
+   "value": 1
+ },
+ {
+   "source": "camping2",
+   "target": "camping0",
+   "value": 1
+ },
+ {
+   "source": "camping4",
+   "target": "camping0",
+   "value": 1
+ },
+ {
+   "source": "gate2",
+   "target": "camping0",
+   "value": 1
+ },
+ {
+   "source": "camping3",
+   "target": "camping0",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "camping1",
+   "value": 1
+ },
+ {
+   "source": "camping1",
+   "target": "camping1",
+   "value": 1
+ },
+ {
+   "source": "general-gate0",
+   "target": "camping1",
+   "value": 1
+ },
+ {
+   "source": "entrance2",
+   "target": "camping1",
+   "value": 1
+ },
+ {
+   "source": "camping8",
+   "target": "camping1",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "camping2",
+   "value": 1
+ },
+ {
+   "source": "camping2",
+   "target": "camping2",
+   "value": 1
+ },
+ {
+   "source": "entrance1",
+   "target": "camping2",
+   "value": 1
+ },
+ {
+   "source": "gate1",
+   "target": "camping2",
+   "value": 1
+ },
+ {
+   "source": "camping4",
+   "target": "camping2",
+   "value": 1
+ },
+ {
+   "source": "camping0",
+   "target": "camping2",
+   "value": 1
+ },
+ {
+   "source": "gate2",
+   "target": "camping2",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "camping3",
+   "value": 1
+ },
+ {
+   "source": "camping3",
+   "target": "camping3",
+   "value": 1
+ },
+ {
+   "source": "entrance1",
+   "target": "camping3",
+   "value": 1
+ },
+ {
+   "source": "gate1",
+   "target": "camping3",
+   "value": 1
+ },
+ {
+   "source": "camping0",
+   "target": "camping3",
+   "value": 1
+ },
+ {
+   "source": "camping2",
+   "target": "camping3",
+   "value": 1
+ },
+ {
+   "source": "gate1",
+   "target": "camping4",
+   "value": 1
+ },
+ {
+   "source": "camping4",
+   "target": "camping4",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "camping4",
+   "value": 1
+ },
+ {
+   "source": "entrance1",
+   "target": "camping4",
+   "value": 1
+ },
+ {
+   "source": "gate2",
+   "target": "camping4",
+   "value": 1
+ },
+ {
+   "source": "camping3",
+   "target": "camping4",
+   "value": 1
+ },
+ {
+   "source": "camping0",
+   "target": "camping4",
+   "value": 1
+ },
+ {
+   "source": "camping2",
+   "target": "camping4",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "camping5",
+   "value": 1
+ },
+ {
+   "source": "camping5",
+   "target": "camping5",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop4",
+   "target": "camping5",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "camping6",
+   "value": 1
+ },
+ {
+   "source": "camping6",
+   "target": "camping6",
+   "value": 1
+ },
+ {
+   "source": "entrance2",
+   "target": "camping6",
+   "value": 1
+ },
+ {
+   "source": "entrance4",
+   "target": "camping6",
+   "value": 1
+ },
+ {
+   "source": "gate5",
+   "target": "camping6",
+   "value": 1
+ },
+ {
+   "source": "gate8",
+   "target": "camping6",
+   "value": 1
+ },
+ {
+   "source": "general-gate6",
+   "target": "camping7",
+   "value": 1
+ },
+ {
+   "source": "camping7",
+   "target": "camping7",
+   "value": 1
+ },
+ {
+   "source": "general-gate2",
+   "target": "camping8",
+   "value": 1
+ },
+ {
+   "source": "camping8",
+   "target": "camping8",
+   "value": 1
+ },
+ {
+   "source": "general-gate3",
+   "target": "camping8",
+   "value": 1
+ },
+ {
+   "source": "gate3",
+   "target": "camping8",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "camping8",
+   "value": 1
+ },
+ {
+   "source": "camping1",
+   "target": "camping8",
+   "value": 1
+ },
+ {
+   "source": "general-gate1",
+   "target": "entrance0",
+   "value": 1
+ },
+ {
+   "source": "general-gate4",
+   "target": "entrance0",
+   "value": 1
+ },
+ {
+   "source": "entrance3",
+   "target": "entrance0",
+   "value": 1
+ },
+ {
+   "source": "entrance0",
+   "target": "entrance0",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "entrance1",
+   "value": 1
+ },
+ {
+   "source": "camping3",
+   "target": "entrance1",
+   "value": 1
+ },
+ {
+   "source": "camping2",
+   "target": "entrance1",
+   "value": 1
+ },
+ {
+   "source": "camping0",
+   "target": "entrance1",
+   "value": 1
+ },
+ {
+   "source": "camping4",
+   "target": "entrance1",
+   "value": 1
+ },
+ {
+   "source": "entrance1",
+   "target": "entrance1",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop1",
+   "target": "entrance1",
+   "value": 1
+ },
+ {
+   "source": "camping6",
+   "target": "entrance2",
+   "value": 1
+ },
+ {
+   "source": "general-gate2",
+   "target": "entrance2",
+   "value": 1
+ },
+ {
+   "source": "entrance4",
+   "target": "entrance2",
+   "value": 1
+ },
+ {
+   "source": "general-gate6",
+   "target": "entrance2",
+   "value": 1
+ },
+ {
+   "source": "general-gate3",
+   "target": "entrance2",
+   "value": 1
+ },
+ {
+   "source": "camping1",
+   "target": "entrance2",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "entrance2",
+   "value": 1
+ },
+ {
+   "source": "entrance2",
+   "target": "entrance2",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "entrance3",
+   "value": 1
+ },
+ {
+   "source": "general-gate1",
+   "target": "entrance3",
+   "value": 1
+ },
+ {
+   "source": "entrance0",
+   "target": "entrance3",
+   "value": 1
+ },
+ {
+   "source": "gate6",
+   "target": "entrance3",
+   "value": 1
+ },
+ {
+   "source": "entrance3",
+   "target": "entrance3",
+   "value": 1
+ },
+ {
+   "source": "general-gate4",
+   "target": "entrance3",
+   "value": 1
+ },
+ {
+   "source": "general-gate6",
+   "target": "entrance4",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "entrance4",
+   "value": 1
+ },
+ {
+   "source": "entrance2",
+   "target": "entrance4",
+   "value": 1
+ },
+ {
+   "source": "camping6",
+   "target": "entrance4",
+   "value": 1
+ },
+ {
+   "source": "entrance4",
+   "target": "entrance4",
+   "value": 1
+ },
+ {
+   "source": "general-gate1",
+   "target": "gate0",
+   "value": 1
+ },
+ {
+   "source": "gate1",
+   "target": "gate0",
+   "value": 1
+ },
+ {
+   "source": "gate6",
+   "target": "gate0",
+   "value": 1
+ },
+ {
+   "source": "gate0",
+   "target": "gate1",
+   "value": 1
+ },
+ {
+   "source": "camping4",
+   "target": "gate1",
+   "value": 1
+ },
+ {
+   "source": "camping0",
+   "target": "gate1",
+   "value": 1
+ },
+ {
+   "source": "gate2",
+   "target": "gate1",
+   "value": 1
+ },
+ {
+   "source": "camping3",
+   "target": "gate1",
+   "value": 1
+ },
+ {
+   "source": "camping2",
+   "target": "gate1",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "gate2",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop1",
+   "target": "gate2",
+   "value": 1
+ },
+ {
+   "source": "gate1",
+   "target": "gate2",
+   "value": 1
+ },
+ {
+   "source": "camping2",
+   "target": "gate2",
+   "value": 1
+ },
+ {
+   "source": "camping0",
+   "target": "gate2",
+   "value": 1
+ },
+ {
+   "source": "camping3",
+   "target": "gate2",
+   "value": 1
+ },
+ {
+   "source": "camping4",
+   "target": "gate2",
+   "value": 1
+ },
+ {
+   "source": "general-gate2",
+   "target": "gate3",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop3",
+   "target": "gate3",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "gate3",
+   "value": 1
+ },
+ {
+   "source": "camping8",
+   "target": "gate3",
+   "value": 1
+ },
+ {
+   "source": "general-gate3",
+   "target": "gate4",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop5",
+   "target": "gate4",
+   "value": 1
+ },
+ {
+   "source": "gate8",
+   "target": "gate4",
+   "value": 1
+ },
+ {
+   "source": "gate5",
+   "target": "gate4",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "gate4",
+   "value": 1
+ },
+ {
+   "source": "general-gate6",
+   "target": "gate4",
+   "value": 1
+ },
+ {
+   "source": "camping6",
+   "target": "gate4",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop6",
+   "target": "gate5",
+   "value": 1
+ },
+ {
+   "source": "gate4",
+   "target": "gate5",
+   "value": 1
+ },
+ {
+   "source": "gate8",
+   "target": "gate5",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "gate5",
+   "value": 1
+ },
+ {
+   "source": "general-gate6",
+   "target": "gate5",
+   "value": 1
+ },
+ {
+   "source": "camping6",
+   "target": "gate5",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "gate6",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop6",
+   "target": "gate6",
+   "value": 1
+ },
+ {
+   "source": "gate0",
+   "target": "gate6",
+   "value": 1
+ },
+ {
+   "source": "gate7",
+   "target": "gate6",
+   "value": 1
+ },
+ {
+   "source": "entrance3",
+   "target": "gate6",
+   "value": 1
+ },
+ {
+   "source": "general-gate1",
+   "target": "gate6",
+   "value": 1
+ },
+ {
+   "source": "gate6",
+   "target": "gate7",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop7",
+   "target": "gate7",
+   "value": 1
+ },
+ {
+   "source": "general-gate4",
+   "target": "gate7",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "gate7",
+   "value": 1
+ },
+ {
+   "source": "ranger-base",
+   "target": "gate8",
+   "value": 1
+ },
+ {
+   "source": "camping6",
+   "target": "gate8",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "gate8",
+   "value": 1
+ },
+ {
+   "source": "gate5",
+   "target": "gate8",
+   "value": 1
+ },
+ {
+   "source": "gate4",
+   "target": "gate8",
+   "value": 1
+ },
+ {
+   "source": "general-gate6",
+   "target": "gate8",
+   "value": 1
+ },
+ {
+   "source": "camping1",
+   "target": "general-gate0",
+   "value": 1
+ },
+ {
+   "source": "general-gate2",
+   "target": "general-gate0",
+   "value": 1
+ },
+ {
+   "source": "entrance3",
+   "target": "general-gate1",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop2",
+   "target": "general-gate1",
+   "value": 1
+ },
+ {
+   "source": "entrance0",
+   "target": "general-gate1",
+   "value": 1
+ },
+ {
+   "source": "gate0",
+   "target": "general-gate1",
+   "value": 1
+ },
+ {
+   "source": "general-gate4",
+   "target": "general-gate1",
+   "value": 1
+ },
+ {
+   "source": "gate6",
+   "target": "general-gate1",
+   "value": 1
+ },
+ {
+   "source": "general-gate1",
+   "target": "general-gate1",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop0",
+   "target": "general-gate2",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "general-gate2",
+   "value": 1
+ },
+ {
+   "source": "entrance2",
+   "target": "general-gate2",
+   "value": 1
+ },
+ {
+   "source": "camping8",
+   "target": "general-gate2",
+   "value": 1
+ },
+ {
+   "source": "general-gate0",
+   "target": "general-gate2",
+   "value": 1
+ },
+ {
+   "source": "gate3",
+   "target": "general-gate2",
+   "value": 1
+ },
+ {
+   "source": "entrance2",
+   "target": "general-gate3",
+   "value": 1
+ },
+ {
+   "source": "camping8",
+   "target": "general-gate3",
+   "value": 1
+ },
+ {
+   "source": "gate4",
+   "target": "general-gate3",
+   "value": 1
+ },
+ {
+   "source": "general-gate1",
+   "target": "general-gate4",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "general-gate4",
+   "value": 1
+ },
+ {
+   "source": "entrance0",
+   "target": "general-gate4",
+   "value": 1
+ },
+ {
+   "source": "gate7",
+   "target": "general-gate4",
+   "value": 1
+ },
+ {
+   "source": "gate0",
+   "target": "general-gate4",
+   "value": 1
+ },
+ {
+   "source": "entrance3",
+   "target": "general-gate4",
+   "value": 1
+ },
+ {
+   "source": "general-gate4",
+   "target": "general-gate4",
+   "value": 1
+ },
+ {
+   "source": "general-gate2",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "entrance4",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "camping8",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "gate8",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "gate3",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "camping6",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "gate5",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "general-gate6",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "camping1",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "gate4",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "general-gate5",
+   "value": 1
+ },
+ {
+   "source": "entrance2",
+   "target": "general-gate6",
+   "value": 1
+ },
+ {
+   "source": "camping7",
+   "target": "general-gate6",
+   "value": 1
+ },
+ {
+   "source": "general-gate5",
+   "target": "general-gate6",
+   "value": 1
+ },
+ {
+   "source": "entrance4",
+   "target": "general-gate6",
+   "value": 1
+ },
+ {
+   "source": "gate5",
+   "target": "general-gate6",
+   "value": 1
+ },
+ {
+   "source": "gate8",
+   "target": "general-gate6",
+   "value": 1
+ },
+ {
+   "source": "general-gate6",
+   "target": "general-gate6",
+   "value": 1
+ },
+ {
+   "source": "gate4",
+   "target": "general-gate6",
+   "value": 1
+ },
+ {
+   "source": "camping6",
+   "target": "general-gate6",
+   "value": 1
+ },
+ {
+   "source": "general-gate4",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "camping5",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "entrance3",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "camping4",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "camping0",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "camping2",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "entrance1",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "camping3",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop4",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "gate2",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "gate6",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "gate7",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "general-gate7",
+   "value": 1
+ },
+ {
+   "source": "gate8",
+   "target": "ranger-base",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop2",
+   "target": "ranger-stop0",
+   "value": 1
+ },
+ {
+   "source": "general-gate2",
+   "target": "ranger-stop0",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop0",
+   "target": "ranger-stop0",
+   "value": 1
+ },
+ {
+   "source": "gate2",
+   "target": "ranger-stop1",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop1",
+   "target": "ranger-stop1",
+   "value": 1
+ },
+ {
+   "source": "entrance1",
+   "target": "ranger-stop1",
+   "value": 1
+ },
+ {
+   "source": "general-gate1",
+   "target": "ranger-stop2",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop0",
+   "target": "ranger-stop2",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop2",
+   "target": "ranger-stop2",
+   "value": 1
+ },
+ {
+   "source": "gate3",
+   "target": "ranger-stop3",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop3",
+   "target": "ranger-stop3",
+   "value": 1
+ },
+ {
+   "source": "general-gate7",
+   "target": "ranger-stop4",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop4",
+   "target": "ranger-stop4",
+   "value": 1
+ },
+ {
+   "source": "gate4",
+   "target": "ranger-stop5",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop5",
+   "target": "ranger-stop5",
+   "value": 1
+ },
+ {
+   "source": "gate6",
+   "target": "ranger-stop6",
+   "value": 1
+ },
+ {
+   "source": "gate5",
+   "target": "ranger-stop6",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop6",
+   "target": "ranger-stop6",
+   "value": 1
+ },
+ {
+   "source": "gate7",
+   "target": "ranger-stop7",
+   "value": 1
+ },
+ {
+   "source": "ranger-stop7",
+   "target": "ranger-stop7",
+   "value": 1
+ }],
+
+"attributes": {}
+ }
