@@ -864,7 +864,7 @@
  {
    "source": "ranger-base",
    "target": "gate8",
-   "value": 5
+   "value": 50
  },
  {
    "source": "camping6",
@@ -1184,7 +1184,7 @@
  {
    "source": "gate8",
    "target": "ranger-base",
-   "value": 1
+   "value": 50
  },
  {
    "source": "ranger-stop2",
