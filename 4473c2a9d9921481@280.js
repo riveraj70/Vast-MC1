@@ -1,4 +1,4 @@
-import define1 from "./a33468b95d0b15b0@808.js";
+import define1 from "https://raw.githubusercontent.com/riveraj70/Vast-MC1/main/a33468b95d0b15b0%40808.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
